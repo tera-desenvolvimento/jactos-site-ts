@@ -1,0 +1,39 @@
+.footer-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-container .aligner {
+    gap: 100px;
+    justify-content: center;
+}
+
+.footer-container .footer-logo img {
+  width: 200px;
+}
+
+.footer-container .menu-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-container .menu-item a {
+    font-family: "Mona Sans";
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.footer-container .menu-item a:hover {
+    color: #F56004;
+}
+
+.footer-container .footer-text {
+    font-family: "Mona Sans";
+    font-size: 14px;
+    color: #000;
+    margin-top: 20px;
+}

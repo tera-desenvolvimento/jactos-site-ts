@@ -1,0 +1,56 @@
+body, * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Mona Sans";
+    src: url("../fonts/mona-sans/Mona-Sans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Mona Sans Bold";
+    src: url("../fonts/mona-sans/Mona-Sans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Mona Sans Semibold";
+    src: url("../fonts/mona-sans/Mona-Sans-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Mona Sans Light";
+    src: url("../fonts/mona-sans/Mona-Sans-Light.ttf");
+}
+
+@font-face {
+    font-family: "SF UI Display Ultralight";
+    src: url("../fonts/sf-ui-display/sf-ui-display-ultralight.otf");
+}
+
+@font-face {
+    font-family: "SF UI Display Light";
+    src: url("../fonts/sf-ui-display/sf-ui-display-light.otf");
+}
+
+@font-face {
+    font-family: "SF UI Display Bold";
+    src: url("../fonts/sf-ui-display/sf-ui-display-bold.otf");
+}
+
+@font-face {
+    font-family: "SF UI Display SemiBold";
+    src: url("../fonts/sf-ui-display/sf-ui-display-semibold.otf");
+}
+
+.button-contact {
+    font-family: "SF UI Display SemiBold";
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #F56004;
+    color: #ffffff;
+    padding: 20px 50px;
+    border-radius: 20px;
+}

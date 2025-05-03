@@ -1,0 +1,181 @@
+.container.plans-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  height: 480px;
+  margin-top: 40px;
+}
+
+.container.plans-container .logo-background {
+    position: absolute;
+    right: 20px;
+    height: 400px;
+}
+
+.container.plans-container .smartphone-image {
+    position: absolute;
+    left: 7rem;
+    height: 500px;
+    margin-top: -40px;
+}
+
+.container.plans-container b{
+    font-family: "SF UI Display SemiBold";
+    color: #FFFFD6;
+    font-size: 30px;
+}
+
+.container.plans-container span {
+    font-family: "SF UI Display SemiBold";
+    color: #FFFFD6;
+    font-size: 15px;
+}
+
+.container.plans-container .aligner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    z-index: 2;
+}
+
+.container.plans-container .aligner .plan-image {
+    height: 300px;
+    transition: all 0.3s ease;
+}
+
+.container.plans-container .aligner .plan-image:hover {
+    transform: scale(1.1);
+}
+
+.container.apps-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    height: 480px;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+.container.apps-container b {
+    font-family: "SF UI Display SemiBold";
+    font-size: 30px;
+}
+
+.container.apps-container .aligner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    z-index: 2;
+}
+
+.container.apps-container .app-image {
+    height: 480px;
+    transition: all 0.3s ease;
+}
+
+.container.apps-container .app-image:hover {
+    transform: scale(1.1);
+}
+
+.container.infomercial-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: start;
+    padding: 20px 6rem;
+    margin-top: 90px;
+}
+
+.container.infomercial-container h2 {
+    font-family: "SF UI Display Bold";
+    color: #F56004;
+    font-size: 35px;
+}
+
+.container.infomercial-container h2:not(:first-child) {
+    padding-bottom: 15px;
+}
+
+.container.infomercial-container b {
+    font-family: "SF UI Display SemiBold";
+    color: #ffffff;
+    padding-top: 15px;
+}
+
+.container.infomercial-container p {
+    font-family: "SF UI Display Ultralight";
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+
+.container.testimonial-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    padding: 20px;
+    height: 480px;
+    margin-top: 50px;
+    width: 98vw;
+}
+
+.container.testimonial-container b {
+    font-family: "SF UI Display SemiBold";
+    font-size: 30px;
+}
+
+.container.contrato-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 90px;
+}
+
+.container.contrato-container .contract-img {
+    height: 30vw;
+    transition: all 0.3s ease;
+}
+
+.container.contrato-container .contract-img:hover {
+    transform: scale(1.1);
+}
+
+.container.contrato-container .aligner.vertical {
+    display: flex;
+    justify-content: start;
+}
+
+.container.contrato-container h2 {
+    font-family: "Mona Sans SemiBold";
+    font-size: 40px;
+    color: #F56004;
+    text-align: left;
+}
+
+.container.contrato-container span {
+    font-family: "Mona Sans Light";
+    font-size: 30px;
+    color: #F0E7D4;
+}
+
+.container.contrato-container .contract-link {
+    font-family: "Mona Sans Bold";
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #F56004;
+    color: #ffffff;
+    width: 85%;
+    padding: 20px 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+    text-align: center;
+    align-self: start;
+}
