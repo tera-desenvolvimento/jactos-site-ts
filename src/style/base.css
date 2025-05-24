@@ -64,3 +64,8 @@ body, * {
 .whatsapp-button img {
     height: 60px;
 }
+
+.plan-image {
+    width: 40vw;
+    height: auto;
+}
