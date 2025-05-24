@@ -28,8 +28,26 @@
 
 .header-container .header-element .menu-element .menu-list {
     display: flex;
-    gap: 15px;
+    gap: 20px;
     list-style: none;
+}
+
+.header-container .header-element .menu-element .menu-list .menu-item {
+    display: flex;
+    align-items: center;
+}
+
+.header-container .header-element .menu-element .menu-list .menu-item.subscriber {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #F56004;
+}
+
+.header-container .header-element .menu-element .menu-list .menu-item.subscriber a {
+    color: #FFFFFF;
 }
 
 .header-container .header-element .menu-element .menu-list a {
@@ -37,8 +55,10 @@
     color: #000000;
     font-family: "Mona Sans Bold";
     transition: all 0.3s ease;
+    display: flex;
+    gap: 5px;
 }
 
-.header-container .header-element .menu-element .menu-list a:hover {
-    color: #F56004;
+.header-container .header-element .menu-element .menu-list a img {
+    height: 15px;
 }

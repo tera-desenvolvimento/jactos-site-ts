@@ -1,4 +1,8 @@
 import logoJactos from "../img/logo-jactos.svg";
+import homeIcon from "../img/home-icon.svg";
+import plansIcon from "../img/plans-icon.svg";
+import contactIcon from "../img/contact-icon.svg";
+import subscriberIcon from "../img/sub-icon.svg";
 
 import "../style/header.css";
 
@@ -11,22 +15,28 @@ function Header() {
                 <nav className="menu-element">
                     <ul className="menu-list">
                         <li className="menu-item">
-                            <a href="#">Home</a>
+                            <a href="#">
+                                <img src={homeIcon} alt="home-icon" className="menu-icon" />
+                                Home
+                            </a>
                         </li>
                         <li className="menu-item">
-                            <a href="#plans">Planos</a>
+                            <a href="#">
+                                <img src={plansIcon} alt="plan-icon" className="menu-icon" />
+                                Planos
+                            </a>
                         </li>
                         <li className="menu-item">
-                            <a href="#about">Sobre nós</a>
+                            <a href="#">
+                                <img src={contactIcon} alt="contact-icon" className="menu-icon" />
+                                Contato
+                            </a>
                         </li>
-                        <li className="menu-item">
-                            <a href="#brief">Depoimentos</a>
-                        </li>
-                        <li className="menu-item">
-                            <a href="#social">Social</a>
-                        </li>
-                        <li className="menu-item">
-                            <a href="#contact">Contato</a>
+                        <li className="menu-item subscriber">
+                            <a href="#">
+                                <img src={subscriberIcon} alt="subscriber-icon" className="menu-icon" />
+                                Central do assinante
+                            </a>
                         </li>
                     </ul>
                 </nav>

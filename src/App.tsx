@@ -6,7 +6,7 @@ import Aligner from './components/aligner';
 import SmallCard from './components/smallCard';
 import Container from './components/container';
 
-import bannerImage from './img/BANNER-PRINCIPAL.png';
+import bannerImage from './img/new-banner.svg';
 import cloudIcon from './img/cloudIcon.svg';
 import headsetIcon from './img/headsetIcon.svg';
 import signalIcon from './img/signalIcon.svg';
@@ -22,6 +22,8 @@ import appGloboplay from './img/app-globoplay.svg';
 import appPremiere from './img/app-premiere.svg';
 import appTelecine from './img/app-telecine.svg';
 import contractImg from './img/notebook.svg';
+import cardPlan from './img/card-plan.svg';
+import whatsappIcon from './img/whatsapp-btm.svg';
 
 import './style/content.css';
 import Testimonial from './components/testimonial';
@@ -77,7 +79,11 @@ function App() {
   return (
     <React.Fragment>
       <Header/>
-      <img src={bannerImage} alt="banner-image" className="banner-image" />
+      <Container style={{ backgroundImage: `url(${bannerImage})`, backgroundSize: "cover", backgroundPosition: "center", height: "97vh" }} className='banner-container'>
+        <Aligner direction="vertical" style={{ height: "100%", justifyContent: "center", alignItems: "flex-start", paddingLeft: "5%" }}>
+          <img src={cardPlan} alt="card-plan" className='plan-image' />
+        </Aligner>
+      </Container>
 
       <Aligner direction="horizontal">
         <SmallCard iconPath={cloudIcon} message="Instalação com roteador grátis."/>
@@ -86,7 +92,7 @@ function App() {
         <SmallCard iconPath={shieldIcon} message="Navegação rápida e segura."/>
       </Aligner>
 
-      <Container style={{ backgroundColor: "#F56004" }} className='plans-container'>
+      <Container style={{ backgroundColor: "#F56004" }} className='plans-container' id='plans'>
 
         <b>Temos o plano ideal para você!</b>
 
@@ -165,6 +171,10 @@ function App() {
           <img src={contractImg} alt="contract-img" className="contract-img" />
         </Aligner>
       </Container>
+
+      <a href="#" className='whatsapp-button'>
+        <img src={whatsappIcon} alt="whatsapp-icon" className='whatsapp-icon' />
+      </a>
 
       <Footer/>
     </React.Fragment>

@@ -54,3 +54,13 @@ body, * {
     padding: 20px 50px;
     border-radius: 20px;
 }
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+
+.whatsapp-button img {
+    height: 60px;
+}

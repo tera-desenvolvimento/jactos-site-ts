@@ -3,7 +3,8 @@ import "../style/container.css";
 export interface IContainerProps {
     children?: React.ReactNode,
     style?: React.CSSProperties,
-    className?: string
+    className?: string,
+    id?: string
 }
 
 function Container(props: IContainerProps) {
