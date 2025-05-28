@@ -5,18 +5,19 @@
   text-align: center;
   padding: 20px;
   height: 480px;
-  margin-top: 40px;
+  padding-top: 70px;
 }
 
 .container.plans-container .logo-background {
     position: absolute;
     right: 20px;
     height: 400px;
+    margin-top: 200px;
 }
 
 .container.plans-container .smartphone-image {
     position: absolute;
-    left: 7rem;
+    left: 5vw;
     height: 500px;
     margin-top: -40px;
 }
@@ -42,7 +43,7 @@
 }
 
 .container.plans-container .aligner .plan-image {
-    height: 300px;
+    width: 210px;
     transition: all 0.3s ease;
 }
 
@@ -178,4 +179,36 @@
     margin-top: 20px;
     text-align: center;
     align-self: start;
+}
+
+@media (min-width: 1400px) {
+    .container.plans-container .logo-background {
+        position: absolute;
+        right: 5vw;
+        height: 400px;
+    }
+
+    .container.plans-container .smartphone-image {
+        position: absolute;
+        left: 5vw;
+        height: 500px;
+        margin-top: -40px;
+    }
+
+}
+
+@media (min-width: 1700px) {
+    .container.plans-container .logo-background {
+        position: absolute;
+        right: 8vw;
+        height: 400px;
+    }
+
+    .container.plans-container .smartphone-image {
+        position: absolute;
+        left: 10vw;
+        height: 500px;
+        margin-top: -40px;
+    }
+
 }

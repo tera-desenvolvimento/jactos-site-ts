@@ -41,7 +41,16 @@ function App() {
     cssEase: "linear",
     responsive: [
       {
-        breakpoint: 1700,
+        breakpoint: 2700,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 5,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 1500,
         settings: {
           slidesToShow: 4,
           slidesToScroll: 4,
@@ -85,7 +94,7 @@ function App() {
         </Aligner>
       </Container>
 
-      <Aligner direction="horizontal">
+      <Aligner direction="horizontal" style={{ backgroundColor: "#F56004", padding: "20px", justifyContent: "center", flexWrap: "wrap", gap: "40px", paddingTop: "30px" }}>
         <SmallCard iconPath={cloudIcon} message="Instalação com roteador grátis."/>
         <SmallCard iconPath={headsetIcon} message="Suporte personalizado, 24 horas por dia."/>
         <SmallCard iconPath={signalIcon} message="Wi-fi que pega na casa toda!"/>
@@ -96,7 +105,7 @@ function App() {
 
         <b>Temos o plano ideal para você!</b>
 
-        <Aligner direction="horizontal">
+        <Aligner direction="horizontal" style={{ justifyContent: "center", gap: "20px" }}>
           <img src={basicoPlan} alt="basico-plan" className='plan-image' />
           <img src={intermediarioPlan} alt="intermediario-plan" className='plan-image'/>
           <img src={completoPlan} alt="completo-plan" className='plan-image'/>
