@@ -88,7 +88,7 @@ function App() {
   return (
     <React.Fragment>
       <Header/>
-      <Container style={{ backgroundImage: `url(${bannerImage})`, backgroundSize: "cover", backgroundPosition: "center", height: "97vh" }} className='banner-container'>
+      <Container style={{ backgroundImage: `url(${bannerImage})`, backgroundSize: "cover", backgroundPosition: "center" }} className='banner-container'>
         <Aligner direction="vertical" style={{ height: "100%", justifyContent: "center", alignItems: "flex-start", paddingLeft: "5%" }}>
           <img src={cardPlan} alt="card-plan" className='plan-image' />
         </Aligner>
